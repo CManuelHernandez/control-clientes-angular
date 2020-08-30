@@ -88,9 +88,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.slim.min.js",
+              "node_modules/popper.js/dist/umd/popper.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           }
         },
         "lint": {
@@ -119,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "control-clientes"
+    }
+  },
+  "defaultProject": "control-clientes",
+  "cli": {
+    "analytics": "415266a1-2362-46d2-b90b-c5bb64f39166"
+  }
 }
